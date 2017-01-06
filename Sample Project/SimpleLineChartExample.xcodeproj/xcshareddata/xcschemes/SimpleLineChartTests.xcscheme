@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3FD8154186DFD9A00FD8ED3"
-               BuildableName = "SimpleLineChart.app"
-               BlueprintName = "SimpleLineChart"
-               ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+               BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
+               BuildableName = "SimpleLineChartExampleTests.xctest"
+               BlueprintName = "SimpleLineChartExampleTests"
+               ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,19 +33,19 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-               BuildableName = "SimpleLineChartTests.xctest"
-               BlueprintName = "SimpleLineChartTests"
-               ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+               BuildableName = "SimpleLineChartExampleTests.xctest"
+               BlueprintName = "SimpleLineChartExampleTests"
+               ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8154186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChart.app"
-            BlueprintName = "SimpleLineChart"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+            BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
+            BuildableName = "SimpleLineChartExampleTests.xctest"
+            BlueprintName = "SimpleLineChartExampleTests"
+            ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -61,23 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8154186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChart.app"
-            BlueprintName = "SimpleLineChart"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+            BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
+            BuildableName = "SimpleLineChartExampleTests.xctest"
+            BlueprintName = "SimpleLineChartExampleTests"
+            ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "OS_ACTIVITY_MODE"
-            value = "disable"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -87,16 +79,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8154186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChart.app"
-            BlueprintName = "SimpleLineChart"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

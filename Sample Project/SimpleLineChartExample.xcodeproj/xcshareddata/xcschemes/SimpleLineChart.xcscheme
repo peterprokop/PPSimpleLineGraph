@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-               BuildableName = "SimpleLineChartTests.xctest"
-               BlueprintName = "SimpleLineChartTests"
-               ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+               BlueprintIdentifier = "0DF9FF541E2012F700D04DA6"
+               BuildableName = "SimpleLineChart.framework"
+               BlueprintName = "SimpleLineChart"
+               ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-               BuildableName = "SimpleLineChartTests.xctest"
-               BlueprintName = "SimpleLineChartTests"
-               ReferencedContainer = "container:SimpleLineChart.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChartTests.xctest"
-            BlueprintName = "SimpleLineChartTests"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChartTests.xctest"
-            BlueprintName = "SimpleLineChartTests"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+            BlueprintIdentifier = "0DF9FF541E2012F700D04DA6"
+            BuildableName = "SimpleLineChart.framework"
+            BlueprintName = "SimpleLineChart"
+            ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C3FD8175186DFD9A00FD8ED3"
-            BuildableName = "SimpleLineChartTests.xctest"
-            BlueprintName = "SimpleLineChartTests"
-            ReferencedContainer = "container:SimpleLineChart.xcodeproj">
+            BlueprintIdentifier = "0DF9FF541E2012F700D04DA6"
+            BuildableName = "SimpleLineChart.framework"
+            BlueprintName = "SimpleLineChart"
+            ReferencedContainer = "container:SimpleLineChartExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
